@@ -1,0 +1,29 @@
+﻿Rule,"Risk Level: 1-3 (Low,Mod,High)",Weight (1-5)
+If the change request is related to 'Application Development and Deployment' and 'Relational Database Management Systems',2,4
+If the change request involves an automated reconfiguration of memory on a virtual machine,1,4
+If the implementer is an automation tool,1,3
+"If the change request is related to the processing unit, specifically the CPU of a virtual machine",2,5
+If the CRQ has a clear and detailed description of the implemented change,1,3
+If the CRQ includes a backup plan in case of failure,1,3
+If the impact score is relatively low,1,2
+If the nature of the change is renewing an internal certificate on a server,1,4
+If the task involves expanding server storage that is not Oracle based,1,4
+If the CRQ involves a change in the disk device in the department of Enterprise System Continuity,2,2
+If the task includes potential adjustments and consultation with other members of the team,3,4
+If several teams are involved,3,3
+If the product involved is a high-end data storage system,2,5
+If the CRQ involves a group policy change to add a CyberArk extension to Chrome and Edge browsers,1,5
+"If the impact_score_all is slightly above average, and the impact_score_app is average",2,3
+"If the change is a ""Client"" change",1,4
+If the 'Description' field mentions updates for Microsoft and Adobe products needing to be applied,1,5
+If the change pertains to Network Infrastructure and Hardware,3,4
+If the change request involves patching,1,5
+If the change request is related to hardware and involves encryption of channels,2,2
+If there are multiple platforms/applications with potential impact,3,4
+If the change request involves a large-scale server move to the Metro Data Center,3,5
+If the dependency on batch processing and the potential for variation in start and end times suggests potential for disruption during business hours,2,5
+"If the change request is related to the processing unit, specifically the CPU of a virtual machine",1,4
+If the CRQ has a clear and detailed description with a higher line count of the implemented change,1,4
+If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.,2,3
+If the CRQ is affecting an internal services firewall,3,3
+If the CRQ mentions a loss of redundancy as a result of the change,3,5

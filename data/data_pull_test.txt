@@ -1,0 +1,34 @@
+select 
+t1.ChangeManagerPartyLanID,
+t1.ChangeManagerPartyName,
+t1.CHANGEID,
+t1.ChangeStatusName,
+t1.ChangeSubmitterPartyName,
+t1.ChangeSubmitterPartyLanID,
+t1.ChangeProdCatTier1Name,
+t1.ChangeProdCatTier2Name,
+t1.ChangeProdCatTier3Name,
+t1.ChangeProdName,
+t1.ChangeReasonTypeName,
+t1.ChangeScheduledStartDateTime,
+t1.ChangeScheduledEndDateTime,
+t1.ChangeSubmittedDateTime,
+t1.ChangeSubmitterPartyName,
+t1.ChangeOpCatTier1Name,
+t1.ChangeOpCatTier2Name,
+t1.ChangeOpCatTier3Name,
+t1.ChangeRiskLevelName,
+t2.ChangeSummaryText,
+t2.ChangeNoteText,
+t1.ChangeManagerSupportGroupName
+
+from
+vw_FactITSMChangeMeasure t1
+
+join 
+vw_FactITSMChangeMeasureTextColumns t2 
+on t1.CHANGEID=t2.CHANGEID
+
+where t1.ChangeManagerSupportGroupName = 'Change Management'
+
+limit 10;

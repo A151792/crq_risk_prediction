@@ -1,0 +1,521 @@
+,CHANGEID,LLM_input,CHANGEMANAGERPARTYLANID,CHANGEMANAGERPARTYNAME,CHANGESTATUSNAME,CHANGESUBMITTERPARTYLANID,CHANGEPRODCATTIER1NAME,CHANGEPRODCATTIER2NAME,CHANGEPRODCATTIER3NAME,CHANGEPRODNAME,CHANGEREASONTYPENAME,CHANGESCHEDULEDSTARTDATETIME,YEAR,CHANGESCHEDULEDENDDATETIME,CHANGESUBMITTEDDATETIME,CHANGESUBMITTERPARTYNAME,CHANGEOPCATTIER1NAME,CHANGEOPCATTIER2NAME,CHANGEOPCATTIER3NAME,CHANGERISKLEVELNAME,CHANGESUMMARYTEXT,CHANGENOTETEXT,CHANGEMANAGERSUPPORTGROUPNAME,LLM_output,LLM_SCORE,WORK_SUMMARY,TECH_ANALYSIS,RULES_ANALYSIS,RISK_SUMMARY
+0,CRQ000001084794,"CHANGEMANAGERPARTYLANID:a143388,CHANGEMANAGERPARTYNAME:Karen L Edge-Clere,CHANGESTATUSNAME:Draft,CHANGESUBMITTERPARTYLANID:a111383,CHANGEPRODCATTIER1NAME:Service,CHANGEPRODCATTIER2NAME:Infrastructure Services,CHANGEPRODCATTIER3NAME:ETS,CHANGEPRODNAME:Mainframe Management,CHANGEREASONTYPENAME:Maintenance,CHANGESCHEDULEDSTARTDATETIME:2024-08-29 15:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-29 16:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 13:48:06,CHANGESUBMITTERPARTYNAME:Jay R Langley,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 3,CHANGESUMMARYTEXT:2024/08/29 - 15:00:00 - Auth Codes IOF - PROD temp keys,CHANGENOTETEXT:Note: Change is Impactful but can't always meet a 2-day lead time due to vendor constraints. It is approved to have an exception as a Standard change without a 2-day lead time.  Rollout: Task Implementer: Jay Langley     Deploy via SCM: No      Description of change: Implementing new temp auth codes for Prod IOF. Previous temp keys expire 9/4/2024, new temp keys will extend the expiration through 9/25/2025.       See task for Implementation, Verification, and Back out plans.             Template updated due to domain assignment (Charles)  11/19/201509/02/22 approved WO0000004501921,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",a143388,Karen L Edge-Clere,Draft,a111383,Service,Infrastructure Services,ETS,Mainframe Management,Maintenance,2024-08-29 15:00:00,2024,2024-08-29 16:00:00,2024-08-27 13:48:06,Jay R Langley,,,,Risk Level 3,2024/08/29 - 15:00:00 - Auth Codes IOF - PROD temp keys,"Note: Change is Impactful but can't always meet a 2-day lead time due to vendor constraints. It is approved to have an exception as a Standard change without a 2-day lead time.  Rollout: Task Implementer: Jay Langley     Deploy via SCM: No      Description of change: Implementing new temp auth codes for Prod IOF. Previous temp keys expire 9/4/2024, new temp keys will extend the expiration through 9/25/2025.       See task for Implementation, Verification, and Back out plans.             Template updated due to domain assignment (Charles)  11/19/201509/02/22 approved WO0000004501921",Change Management,"**Risk score: Medium**
+
+**Summary of work entailed:**
+The CRQ involves implementing new temporary authorization codes for the Production IOF (Input/Output Facility) on the mainframe. The previous temporary keys are set to expire on September 4, 2024, and the new keys will extend the expiration through September 25, 2025. The change is categorized as maintenance and is scheduled to occur on August 29, 2024, from 15:00 to 16:00. The change is noted to be impactful but has been approved as a standard change without the usual 2-day lead time due to vendor constraints.
+
+**Technology-based analysis:**
+1. **Mainframe Management**: The change pertains to the mainframe management system, which is a critical infrastructure component.
+2. **Authorization Codes**: The change involves updating authorization codes, which are essential for system security and access control.
+3. **Scheduled Maintenance**: The change is scheduled for a specific time window, indicating planned downtime or potential service impact.
+4. **Impactful Change**: The notes mention that the change is impactful, suggesting a significant effect on the system or users.
+
+**Rules-based analysis:**
+1. **Clear and Detailed Description**: The CRQ has a clear and detailed description of the implemented change, including the implementation, verification, and backout plans. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. **Backup Plan**: The notes include a backup plan in case of failure, which is essential for mitigating risks. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. **Impactful Change**: The change is noted to be impactful, which increases the risk level. (Rule: If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. **Draft Status**: The change request status is ""Draft,"" which typically indicates that it is still under review and not yet finalized. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be medium. The change involves updating critical authorization codes on the mainframe, which is a significant and impactful task. While the CRQ includes a clear and detailed description, as well as a backup plan, the nature of the change and its potential impact on the system elevate the risk level. Additionally, the change is currently in draft status, indicating that it is still under review and may be subject to further modifications. The combination of these factors results in a medium risk score for this CRQ.","Medium**
+
+**Summary of work entailed:**
+The CRQ involves implementing new temporary authorization codes for the Production IOF (Input/Output Facility) on the mainframe. The previous temporary keys are set to expire on September 4, 2024, and the new keys will extend the expiration through September 25, 2025. The change is categorized as maintenance and is scheduled to occur on August 29, 2024, from 15:00 to 16:00. The change is noted to be impactful but has been approved as a standard change without the usual 2-day lead time due to vendor constraints.
+
+**Technology-based analysis:**
+1. **Mainframe Management**: The change pertains to the mainframe management system, which is a critical infrastructure component.
+2. **Authorization Codes**: The change involves updating authorization codes, which are essential for system security and access control.
+3. **Scheduled Maintenance**: The change is scheduled for a specific time window, indicating planned downtime or potential service impact.
+4. **Impactful Change**: The notes mention that the change is impactful, suggesting a significant effect on the system or users.
+
+**Rules-based analysis:**
+1. **Clear and Detailed Description**: The CRQ has a clear and detailed description of the implemented change, including the implementation, verification, and backout plans. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. **Backup Plan**: The notes include a backup plan in case of failure, which is essential for mitigating risks. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. **Impactful Change**: The change is noted to be impactful, which increases the risk level. (Rule: If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. **Draft Status**: The change request status is ""Draft,"" which typically indicates that it is still under review and not yet finalized. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be medium. The change involves updating critical authorization codes on the mainframe, which is a significant and impactful task. While the CRQ includes a clear and detailed description, as well as a backup plan, the nature of the change and its potential impact on the system elevate the risk level. Additionally, the change is currently in draft status, indicating that it is still under review and may be subject to further modifications. The combination of these factors results in a medium risk score for this CRQ.","**
+The CRQ involves implementing new temporary authorization codes for the Production IOF (Input/Output Facility) on the mainframe. The previous temporary keys are set to expire on September 4, 2024, and the new keys will extend the expiration through September 25, 2025. The change is categorized as maintenance and is scheduled to occur on August 29, 2024, from 15:00 to 16:00. The change is noted to be impactful but has been approved as a standard change without the usual 2-day lead time due to vendor constraints.
+
+**","**
+1. **Mainframe Management**: The change pertains to the mainframe management system, which is a critical infrastructure component.
+2. **Authorization Codes**: The change involves updating authorization codes, which are essential for system security and access control.
+3. **Scheduled Maintenance**: The change is scheduled for a specific time window, indicating planned downtime or potential service impact.
+4. **Impactful Change**: The notes mention that the change is impactful, suggesting a significant effect on the system or users.
+
+**","**
+1. **Clear and Detailed Description**: The CRQ has a clear and detailed description of the implemented change, including the implementation, verification, and backout plans. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. **Backup Plan**: The notes include a backup plan in case of failure, which is essential for mitigating risks. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. **Impactful Change**: The change is noted to be impactful, which increases the risk level. (Rule: If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. **Draft Status**: The change request status is ""Draft,"" which typically indicates that it is still under review and not yet finalized. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+
+**","**
+The risk score for this CRQ is determined to be medium. The change involves updating critical authorization codes on the mainframe, which is a significant and impactful task. While the CRQ includes a clear and detailed description, as well as a backup plan, the nature of the change and its potential impact on the system elevate the risk level. Additionally, the change is currently in draft status, indicating that it is still under review and may be subject to further modifications. The combination of these factors results in a medium risk score for this CRQ."
+1,CRQ000001067751,"CHANGEMANAGERPARTYLANID:x019076,CHANGEMANAGERPARTYNAME:Manuel Soto,CHANGESTATUSNAME:Draft,CHANGESUBMITTERPARTYLANID:BAO,CHANGEPRODCATTIER1NAME:,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Maintenance,CHANGESCHEDULEDSTARTDATETIME:2024-09-06 00:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-09-06 02:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 20:46:12,CHANGESUBMITTERPARTYNAME:BMC Orchestrator,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 3,CHANGESUMMARYTEXT:Automated Reboot,CHANGENOTETEXT:Change Implementer: Tasks will be assigned through automation.  The Implementer is BMC Orchestrator.  Description of Change: This CRQ will be submitted by Orchestration scheduled in the server’s maintenance window.   The CRQ will kick off an Orchestrated task to perform a scheduled server reboot.  See task for Implementation, Verification, and Back out plans.  If the change fails, the requester and Server Operations team will be notified to follow-up.  If the server fails to restart, existing monitoring will detect this and issue the appropriate incidents and alerts.  $BAO$ :SERVER: SCTFSP30,SCTFSP28,SCTFSP29 :SRID: 7877809 :OPTION: Reboot :DTYPE: null :DWAIT: 300 :REQ: KYLE_VIA@progressive.com :INC: null :END:,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",x019076,Manuel Soto,Draft,BAO,,,,,Maintenance,2024-09-06 00:00:00,2024,2024-09-06 02:00:00,2024-08-27 20:46:12,BMC Orchestrator,,,,Risk Level 3,Automated Reboot,"Change Implementer: Tasks will be assigned through automation.  The Implementer is BMC Orchestrator.  Description of Change: This CRQ will be submitted by Orchestration scheduled in the server’s maintenance window.   The CRQ will kick off an Orchestrated task to perform a scheduled server reboot.  See task for Implementation, Verification, and Back out plans.  If the change fails, the requester and Server Operations team will be notified to follow-up.  If the server fails to restart, existing monitoring will detect this and issue the appropriate incidents and alerts.  $BAO$ :SERVER: SCTFSP30,SCTFSP28,SCTFSP29 :SRID: 7877809 :OPTION: Reboot :DTYPE: null :DWAIT: 300 :REQ: KYLE_VIA@progressive.com :INC: null :END:",Change Management,"**Risk score: Medium**
+
+**Summary of work entailed:**
+The CRQ involves an automated reboot of servers SCTFSP30, SCTFSP28, and SCTFSP29. The change is scheduled to occur within a maintenance window and will be managed by BMC Orchestrator. The implementation, verification, and backout plans are detailed in the notes. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**Technology-based analysis:**
+1. The change involves an automated reboot of servers, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled during a maintenance window, minimizing the risk of disruption during business hours.
+4. The change is managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. The risk level is identified as ""Risk Level 3,"" indicating a moderate level of risk.
+
+**Rules-based analysis:**
+1. The implementer is an automation tool (BMC Orchestrator), which reduces the risk level (1:3).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+4. The change request status is ""Draft,"" which typically indicates a moderate risk level (2:3).
+5. The task involves potential adjustments and consultation with other members of the team, as the Server Operations team will be notified if the change fails (3:4).
+
+**Summary of risk:**
+The overall risk score for this CRQ is medium. The use of an automation tool and the clear, detailed plans for implementation, verification, and backout contribute to a lower risk. However, the involvement of multiple servers and the potential need for consultation with the Server Operations team in case of failure elevate the risk to a moderate level. The scheduled maintenance window helps mitigate the risk of disruption during business hours.","Medium**
+
+**Summary of work entailed:**
+The CRQ involves an automated reboot of servers SCTFSP30, SCTFSP28, and SCTFSP29. The change is scheduled to occur within a maintenance window and will be managed by BMC Orchestrator. The implementation, verification, and backout plans are detailed in the notes. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**Technology-based analysis:**
+1. The change involves an automated reboot of servers, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled during a maintenance window, minimizing the risk of disruption during business hours.
+4. The change is managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. The risk level is identified as ""Risk Level 3,"" indicating a moderate level of risk.
+
+**Rules-based analysis:**
+1. The implementer is an automation tool (BMC Orchestrator), which reduces the risk level (1:3).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+4. The change request status is ""Draft,"" which typically indicates a moderate risk level (2:3).
+5. The task involves potential adjustments and consultation with other members of the team, as the Server Operations team will be notified if the change fails (3:4).
+
+**Summary of risk:**
+The overall risk score for this CRQ is medium. The use of an automation tool and the clear, detailed plans for implementation, verification, and backout contribute to a lower risk. However, the involvement of multiple servers and the potential need for consultation with the Server Operations team in case of failure elevate the risk to a moderate level. The scheduled maintenance window helps mitigate the risk of disruption during business hours.","**
+The CRQ involves an automated reboot of servers SCTFSP30, SCTFSP28, and SCTFSP29. The change is scheduled to occur within a maintenance window and will be managed by BMC Orchestrator. The implementation, verification, and backout plans are detailed in the notes. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**","**
+1. The change involves an automated reboot of servers, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled during a maintenance window, minimizing the risk of disruption during business hours.
+4. The change is managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. The risk level is identified as ""Risk Level 3,"" indicating a moderate level of risk.
+
+**","**
+1. The implementer is an automation tool (BMC Orchestrator), which reduces the risk level (1:3).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+4. The change request status is ""Draft,"" which typically indicates a moderate risk level (2:3).
+5. The task involves potential adjustments and consultation with other members of the team, as the Server Operations team will be notified if the change fails (3:4).
+
+**","**
+The overall risk score for this CRQ is medium. The use of an automation tool and the clear, detailed plans for implementation, verification, and backout contribute to a lower risk. However, the involvement of multiple servers and the potential need for consultation with the Server Operations team in case of failure elevate the risk to a moderate level. The scheduled maintenance window helps mitigate the risk of disruption during business hours."
+2,CRQ000001081912,"CHANGEMANAGERPARTYLANID:x019191,CHANGEMANAGERPARTYNAME:Jonathan Rix,CHANGESTATUSNAME:Closed,CHANGESUBMITTERPARTYLANID:a191877,CHANGEPRODCATTIER1NAME:Software,CHANGEPRODCATTIER2NAME:Application Development and Deployment,CHANGEPRODCATTIER3NAME:Relational Database Management Systems,CHANGEPRODNAME:SQL Server,CHANGEREASONTYPENAME:Maintenance,CHANGESCHEDULEDSTARTDATETIME:2024-08-27 10:35:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-27 17:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 10:34:19,CHANGESUBMITTERPARTYNAME:Shahan Vohra,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 1,CHANGESUMMARYTEXT:KC4E66CE,CHANGENOTETEXT:Task Implementer: Shahan Vohra Deploy via SCM: No       Description of change:        See task for Implementation, Verification, and Back out plans.,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",x019191,Jonathan Rix,Closed,a191877,Software,Application Development and Deployment,Relational Database Management Systems,SQL Server,Maintenance,2024-08-27 10:35:00,2024,2024-08-27 17:00:00,2024-08-27 10:34:19,Shahan Vohra,,,,Risk Level 1,KC4E66CE,"Task Implementer: Shahan Vohra Deploy via SCM: No       Description of change:        See task for Implementation, Verification, and Back out plans.",Change Management,"**Risk score: Low**
+
+**Summary of work entailed:**
+The CRQ involves maintenance work on a SQL Server, specifically related to Application Development and Deployment within the category of Relational Database Management Systems. The change is scheduled to start and end on the same day, with a clear implementation, verification, and backout plan mentioned in the notes.
+
+**Technology-based analysis:**
+1. The change is related to SQL Server, which is a Relational Database Management System.
+2. The change is categorized under Application Development and Deployment.
+3. The change is for maintenance purposes.
+4. The change has a clear implementation, verification, and backout plan mentioned in the notes.
+
+**Rules-based analysis:**
+1. The change request is related to 'Application Development and Deployment' and 'Relational Database Management Systems' (2:4).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+
+**Summary of risk:**
+The CRQ is categorized as low risk due to several factors. The change is related to Application Development and Deployment and involves a Relational Database Management System, which typically carries a moderate risk. However, the presence of a clear and detailed description of the change, along with a backup plan, significantly mitigates the risk. Additionally, the change is for maintenance purposes, which generally involves routine and well-understood procedures. Therefore, the overall risk score for this CRQ is determined to be low.","Low**
+
+**Summary of work entailed:**
+The CRQ involves maintenance work on a SQL Server, specifically related to Application Development and Deployment within the category of Relational Database Management Systems. The change is scheduled to start and end on the same day, with a clear implementation, verification, and backout plan mentioned in the notes.
+
+**Technology-based analysis:**
+1. The change is related to SQL Server, which is a Relational Database Management System.
+2. The change is categorized under Application Development and Deployment.
+3. The change is for maintenance purposes.
+4. The change has a clear implementation, verification, and backout plan mentioned in the notes.
+
+**Rules-based analysis:**
+1. The change request is related to 'Application Development and Deployment' and 'Relational Database Management Systems' (2:4).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+
+**Summary of risk:**
+The CRQ is categorized as low risk due to several factors. The change is related to Application Development and Deployment and involves a Relational Database Management System, which typically carries a moderate risk. However, the presence of a clear and detailed description of the change, along with a backup plan, significantly mitigates the risk. Additionally, the change is for maintenance purposes, which generally involves routine and well-understood procedures. Therefore, the overall risk score for this CRQ is determined to be low.","**
+The CRQ involves maintenance work on a SQL Server, specifically related to Application Development and Deployment within the category of Relational Database Management Systems. The change is scheduled to start and end on the same day, with a clear implementation, verification, and backout plan mentioned in the notes.
+
+**","**
+1. The change is related to SQL Server, which is a Relational Database Management System.
+2. The change is categorized under Application Development and Deployment.
+3. The change is for maintenance purposes.
+4. The change has a clear implementation, verification, and backout plan mentioned in the notes.
+
+**","**
+1. The change request is related to 'Application Development and Deployment' and 'Relational Database Management Systems' (2:4).
+2. The CRQ has a clear and detailed description of the implemented change (1:3).
+3. The CRQ includes a backup plan in case of failure (1:3).
+
+**","**
+The CRQ is categorized as low risk due to several factors. The change is related to Application Development and Deployment and involves a Relational Database Management System, which typically carries a moderate risk. However, the presence of a clear and detailed description of the change, along with a backup plan, significantly mitigates the risk. Additionally, the change is for maintenance purposes, which generally involves routine and well-understood procedures. Therefore, the overall risk score for this CRQ is determined to be low."
+3,CRQ000001081927,"CHANGEMANAGERPARTYLANID:a031696,CHANGEMANAGERPARTYNAME:Monique R Thompson,CHANGESTATUSNAME:Draft,CHANGESUBMITTERPARTYLANID:a103462,CHANGEPRODCATTIER1NAME:,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Maintenance,CHANGESCHEDULEDSTARTDATETIME:2024-09-06 02:00:01,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-09-07 01:59:59,CHANGESUBMITTEDDATETIME:2024-08-27 13:05:32,CHANGESUBMITTERPARTYNAME:Michael A Harder,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 3,CHANGESUMMARYTEXT:Configure Customer Hub Production application servers on Non Live Production Linux 8 servers,CHANGENOTETEXT:Configure Customer Hub Production application servers on Non Live Production Linux 8 servers  Implementer: Michael Harder   No Linux tasks required  Does NOT impact windows patching these are back end Linux servers that are NOT in use.  These servers are NOT BEING USED, the cutover for existing servers will be handled with different changes.   Servers are xrmpch1a|b|c|d|e|f, xrmpch0a and xripch1a|b|c|d|e|f,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",a031696,Monique R Thompson,Draft,a103462,,,,,Maintenance,2024-09-06 02:00:01,2024,2024-09-07 01:59:59,2024-08-27 13:05:32,Michael A Harder,,,,Risk Level 3,Configure Customer Hub Production application servers on Non Live Production Linux 8 servers,"Configure Customer Hub Production application servers on Non Live Production Linux 8 servers  Implementer: Michael Harder   No Linux tasks required  Does NOT impact windows patching these are back end Linux servers that are NOT in use.  These servers are NOT BEING USED, the cutover for existing servers will be handled with different changes.   Servers are xrmpch1a|b|c|d|e|f, xrmpch0a and xripch1a|b|c|d|e|f",Change Management,"**Risk score: Medium**
+
+**Summary of work entailed:**
+The CRQ involves configuring Customer Hub Production application servers on Non-Live Production Linux 8 servers. The servers mentioned are not currently in use, and the change does not impact Windows patching. The servers involved are xrmpch1a|b|c|d|e|f, xrmpch0a, and xripch1a|b|c|d|e|f. The change is scheduled to start on 2024-09-06 and end on 2024-09-07.
+
+**Technology-based analysis:**
+1. The change involves configuring application servers on Non-Live Production Linux 8 servers.
+2. The servers are not currently in use, which reduces the immediate impact on production environments.
+3. The change does not affect Windows patching, indicating a limited scope of impact.
+4. The servers involved are specified, which helps in understanding the scope and potential impact of the change.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change request status is ""Draft,"" which typically indicates a higher level of scrutiny and review before approval. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+3. The change involves multiple servers, which could imply a broader scope and potential for impact. (Rule: If there are multiple platforms/applications with potential impact:3:4)
+4. The change is related to maintenance, which generally carries a moderate risk level. (Rule: If the change request involves patching:1:5)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be medium. The detailed description and the fact that the servers are not currently in use reduce the immediate risk. However, the involvement of multiple servers and the draft status of the CRQ indicate a need for careful review and potential for broader impact. The nature of the change being maintenance-related also contributes to a moderate risk level.","Medium**
+
+**Summary of work entailed:**
+The CRQ involves configuring Customer Hub Production application servers on Non-Live Production Linux 8 servers. The servers mentioned are not currently in use, and the change does not impact Windows patching. The servers involved are xrmpch1a|b|c|d|e|f, xrmpch0a, and xripch1a|b|c|d|e|f. The change is scheduled to start on 2024-09-06 and end on 2024-09-07.
+
+**Technology-based analysis:**
+1. The change involves configuring application servers on Non-Live Production Linux 8 servers.
+2. The servers are not currently in use, which reduces the immediate impact on production environments.
+3. The change does not affect Windows patching, indicating a limited scope of impact.
+4. The servers involved are specified, which helps in understanding the scope and potential impact of the change.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change request status is ""Draft,"" which typically indicates a higher level of scrutiny and review before approval. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+3. The change involves multiple servers, which could imply a broader scope and potential for impact. (Rule: If there are multiple platforms/applications with potential impact:3:4)
+4. The change is related to maintenance, which generally carries a moderate risk level. (Rule: If the change request involves patching:1:5)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be medium. The detailed description and the fact that the servers are not currently in use reduce the immediate risk. However, the involvement of multiple servers and the draft status of the CRQ indicate a need for careful review and potential for broader impact. The nature of the change being maintenance-related also contributes to a moderate risk level.","**
+The CRQ involves configuring Customer Hub Production application servers on Non-Live Production Linux 8 servers. The servers mentioned are not currently in use, and the change does not impact Windows patching. The servers involved are xrmpch1a|b|c|d|e|f, xrmpch0a, and xripch1a|b|c|d|e|f. The change is scheduled to start on 2024-09-06 and end on 2024-09-07.
+
+**","**
+1. The change involves configuring application servers on Non-Live Production Linux 8 servers.
+2. The servers are not currently in use, which reduces the immediate impact on production environments.
+3. The change does not affect Windows patching, indicating a limited scope of impact.
+4. The servers involved are specified, which helps in understanding the scope and potential impact of the change.
+
+**","**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change request status is ""Draft,"" which typically indicates a higher level of scrutiny and review before approval. (Rule: If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+3. The change involves multiple servers, which could imply a broader scope and potential for impact. (Rule: If there are multiple platforms/applications with potential impact:3:4)
+4. The change is related to maintenance, which generally carries a moderate risk level. (Rule: If the change request involves patching:1:5)
+
+**","**
+The risk score for this CRQ is determined to be medium. The detailed description and the fact that the servers are not currently in use reduce the immediate risk. However, the involvement of multiple servers and the draft status of the CRQ indicate a need for careful review and potential for broader impact. The nature of the change being maintenance-related also contributes to a moderate risk level."
+4,CRQ000001067750,"CHANGEMANAGERPARTYLANID:x019076,CHANGEMANAGERPARTYNAME:Manuel Soto,CHANGESTATUSNAME:Draft,CHANGESUBMITTERPARTYLANID:BAO,CHANGEPRODCATTIER1NAME:,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Maintenance,CHANGESCHEDULEDSTARTDATETIME:2024-09-06 01:30:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-09-06 03:30:00,CHANGESUBMITTEDDATETIME:2024-08-27 20:46:10,CHANGESUBMITTERPARTYNAME:BMC Orchestrator,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 3,CHANGESUMMARYTEXT:Automated Reboot,CHANGENOTETEXT:Change Implementer: Tasks will be assigned through automation.  The Implementer is BMC Orchestrator.  Description of Change: This CRQ will be submitted by Orchestration scheduled in the server’s maintenance window.   The CRQ will kick off an Orchestrated task to perform a scheduled server reboot.  See task for Implementation, Verification, and Back out plans.  If the change fails, the requester and Server Operations team will be notified to follow-up.  If the server fails to restart, existing monitoring will detect this and issue the appropriate incidents and alerts.  $BAO$ :SERVER: SCPKIQ35 :SRID: 7877809 :OPTION: Reboot :DTYPE: null :DWAIT: 300 :REQ: KYLE_VIA@progressive.com :INC: null :END:,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",x019076,Manuel Soto,Draft,BAO,,,,,Maintenance,2024-09-06 01:30:00,2024,2024-09-06 03:30:00,2024-08-27 20:46:10,BMC Orchestrator,,,,Risk Level 3,Automated Reboot,"Change Implementer: Tasks will be assigned through automation.  The Implementer is BMC Orchestrator.  Description of Change: This CRQ will be submitted by Orchestration scheduled in the server’s maintenance window.   The CRQ will kick off an Orchestrated task to perform a scheduled server reboot.  See task for Implementation, Verification, and Back out plans.  If the change fails, the requester and Server Operations team will be notified to follow-up.  If the server fails to restart, existing monitoring will detect this and issue the appropriate incidents and alerts.  $BAO$ :SERVER: SCPKIQ35 :SRID: 7877809 :OPTION: Reboot :DTYPE: null :DWAIT: 300 :REQ: KYLE_VIA@progressive.com :INC: null :END:",Change Management,"**Risk score: Low**
+
+**Summary of work entailed:**
+The CRQ involves an automated reboot of a server, scheduled to occur within a maintenance window. The change will be implemented by BMC Orchestrator, an automation tool. The CRQ includes a detailed description of the change, implementation, verification, and backout plans. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**Technology-based analysis:**
+1. The change involves an automated reboot of a server, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled to occur within a maintenance window, minimizing the impact on business operations.
+4. The change will be managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. Existing monitoring systems will detect any issues post-reboot, ensuring prompt incident management.
+
+**Rules-based analysis:**
+1. The implementer is an automation tool, which reduces risk (If the implementer is an automation tool:1:3).
+2. The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. The CRQ includes a backup plan in case of failure (If the CRQ includes a backup plan in case of failure:1:3).
+4. The change request status is ""Draft,"" which is considered in the risk assessment (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3).
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The change involves a routine server reboot managed by an automation tool, which minimizes the risk of human error. The CRQ includes detailed implementation, verification, and backout plans, ensuring that any issues can be promptly addressed. The change is scheduled within a maintenance window, further reducing the potential impact on business operations. Existing monitoring systems will detect any issues post-reboot, ensuring that incidents are managed effectively.","Low**
+
+**Summary of work entailed:**
+The CRQ involves an automated reboot of a server, scheduled to occur within a maintenance window. The change will be implemented by BMC Orchestrator, an automation tool. The CRQ includes a detailed description of the change, implementation, verification, and backout plans. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**Technology-based analysis:**
+1. The change involves an automated reboot of a server, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled to occur within a maintenance window, minimizing the impact on business operations.
+4. The change will be managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. Existing monitoring systems will detect any issues post-reboot, ensuring prompt incident management.
+
+**Rules-based analysis:**
+1. The implementer is an automation tool, which reduces risk (If the implementer is an automation tool:1:3).
+2. The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. The CRQ includes a backup plan in case of failure (If the CRQ includes a backup plan in case of failure:1:3).
+4. The change request status is ""Draft,"" which is considered in the risk assessment (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3).
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The change involves a routine server reboot managed by an automation tool, which minimizes the risk of human error. The CRQ includes detailed implementation, verification, and backout plans, ensuring that any issues can be promptly addressed. The change is scheduled within a maintenance window, further reducing the potential impact on business operations. Existing monitoring systems will detect any issues post-reboot, ensuring that incidents are managed effectively.","**
+The CRQ involves an automated reboot of a server, scheduled to occur within a maintenance window. The change will be implemented by BMC Orchestrator, an automation tool. The CRQ includes a detailed description of the change, implementation, verification, and backout plans. If the change fails, the requester and Server Operations team will be notified, and existing monitoring will detect any issues, issuing appropriate incidents and alerts.
+
+**","**
+1. The change involves an automated reboot of a server, which is a routine maintenance task.
+2. The implementation, verification, and backout plans are clearly described in the notes.
+3. The change is scheduled to occur within a maintenance window, minimizing the impact on business operations.
+4. The change will be managed by an automation tool (BMC Orchestrator), which reduces the risk of human error.
+5. Existing monitoring systems will detect any issues post-reboot, ensuring prompt incident management.
+
+**","**
+1. The implementer is an automation tool, which reduces risk (If the implementer is an automation tool:1:3).
+2. The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. The CRQ includes a backup plan in case of failure (If the CRQ includes a backup plan in case of failure:1:3).
+4. The change request status is ""Draft,"" which is considered in the risk assessment (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3).
+
+**","**
+The risk score for this CRQ is determined to be low. The change involves a routine server reboot managed by an automation tool, which minimizes the risk of human error. The CRQ includes detailed implementation, verification, and backout plans, ensuring that any issues can be promptly addressed. The change is scheduled within a maintenance window, further reducing the potential impact on business operations. Existing monitoring systems will detect any issues post-reboot, ensuring that incidents are managed effectively."
+5,CRQ000001084772,"CHANGEMANAGERPARTYLANID:a215130,CHANGEMANAGERPARTYNAME:Maria C Benavente,CHANGESTATUSNAME:Implementation In Progress,CHANGESUBMITTERPARTYLANID:mdarmon,CHANGEPRODCATTIER1NAME:Network,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Other,CHANGESCHEDULEDSTARTDATETIME:2024-08-27 10:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-27 17:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 09:34:23,CHANGESUBMITTERPARTYNAME:Mitchell R Darmon,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 1,CHANGESUMMARYTEXT:IOCD - PLIT NonProd DNS/LTM changes,CHANGENOTETEXT:Change Implementer:  Mitch Darmon  Change Requester (WO#, Project ID, INC#, CRQ#, etc.):    IOCD Projects Teams/Vendors involved/impacted (Third party, etc.):  IOCD Description of Change (versions, updates, upgrades, replacements, etc):    Adding new aliases and LTM vips Relate all associated Configuration Items, including any impacted device - WO#, Project ID, INC#, CRQ#:   Environment for this Change (DEV, Stress, Non-Prod, Prod):  Stress   Deployment tool used to implement/deploy this Change:    Manual If a rollback is necessary, the time for it should be factored into scheduled dates/times.  N/A - new vips not being used yet Change communication (including IMT & Service Desk) to be attached to CRQ Implementation plan (including Backout/Rollback) to be attached to CRQ Change test results to be attached post-implementation  If you are using a KBA as your implementation plan, please ensure that you attach a copy,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",a215130,Maria C Benavente,Implementation In Progress,mdarmon,Network,,,,Other,2024-08-27 10:00:00,2024,2024-08-27 17:00:00,2024-08-27 09:34:23,Mitchell R Darmon,,,,Risk Level 1,IOCD - PLIT NonProd DNS/LTM changes,"Change Implementer:  Mitch Darmon  Change Requester (WO#, Project ID, INC#, CRQ#, etc.):    IOCD Projects Teams/Vendors involved/impacted (Third party, etc.):  IOCD Description of Change (versions, updates, upgrades, replacements, etc):    Adding new aliases and LTM vips Relate all associated Configuration Items, including any impacted device - WO#, Project ID, INC#, CRQ#:   Environment for this Change (DEV, Stress, Non-Prod, Prod):  Stress   Deployment tool used to implement/deploy this Change:    Manual If a rollback is necessary, the time for it should be factored into scheduled dates/times.  N/A - new vips not being used yet Change communication (including IMT & Service Desk) to be attached to CRQ Implementation plan (including Backout/Rollback) to be attached to CRQ Change test results to be attached post-implementation  If you are using a KBA as your implementation plan, please ensure that you attach a copy",Change Management,"**Risk score: Medium**
+
+**Summary of work entailed:**
+The CRQ involves making changes to the DNS and LTM (Local Traffic Manager) configurations in a non-production environment. Specifically, it includes adding new aliases and LTM VIPs (Virtual IPs). The change is being implemented manually by Mitchell R Darmon and is scheduled to start and end on the same day, August 27, 2024. The change is categorized under the Network tier and is currently in the ""Implementation In Progress"" status.
+
+**Technology-based analysis:**
+1. The change involves DNS and LTM configurations, which are critical components of network infrastructure.
+2. The environment affected is a non-production (Stress) environment, which reduces the immediate impact on end-users.
+3. The change is being implemented manually, which introduces a higher risk of human error compared to automated processes.
+4. The change does not involve any rollback plan, as the new VIPs are not being used yet, which could complicate recovery if issues arise.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change pertains to Network Infrastructure and Hardware. (Rule: If the change pertains to Network Infrastructure and Hardware:3:4)
+3. Several teams are involved, including the IOCD Projects Teams and Vendors. (Rule: If several teams are involved:3:3)
+4. The implementation plan, verification plan, and backout plan are not explicitly detailed in the notes, which should be considered absent. (General rule about plans being absent)
+
+**Summary of risk:**
+The risk score is determined to be medium due to the nature of the change involving critical network components (DNS and LTM), the manual implementation process, and the involvement of multiple teams. While the change is in a non-production environment, the absence of a detailed backout plan and the manual nature of the implementation elevate the risk. The clear and detailed description of the change helps mitigate some risk, but the overall complexity and potential for human error justify a medium risk score.","Medium**
+
+**Summary of work entailed:**
+The CRQ involves making changes to the DNS and LTM (Local Traffic Manager) configurations in a non-production environment. Specifically, it includes adding new aliases and LTM VIPs (Virtual IPs). The change is being implemented manually by Mitchell R Darmon and is scheduled to start and end on the same day, August 27, 2024. The change is categorized under the Network tier and is currently in the ""Implementation In Progress"" status.
+
+**Technology-based analysis:**
+1. The change involves DNS and LTM configurations, which are critical components of network infrastructure.
+2. The environment affected is a non-production (Stress) environment, which reduces the immediate impact on end-users.
+3. The change is being implemented manually, which introduces a higher risk of human error compared to automated processes.
+4. The change does not involve any rollback plan, as the new VIPs are not being used yet, which could complicate recovery if issues arise.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change pertains to Network Infrastructure and Hardware. (Rule: If the change pertains to Network Infrastructure and Hardware:3:4)
+3. Several teams are involved, including the IOCD Projects Teams and Vendors. (Rule: If several teams are involved:3:3)
+4. The implementation plan, verification plan, and backout plan are not explicitly detailed in the notes, which should be considered absent. (General rule about plans being absent)
+
+**Summary of risk:**
+The risk score is determined to be medium due to the nature of the change involving critical network components (DNS and LTM), the manual implementation process, and the involvement of multiple teams. While the change is in a non-production environment, the absence of a detailed backout plan and the manual nature of the implementation elevate the risk. The clear and detailed description of the change helps mitigate some risk, but the overall complexity and potential for human error justify a medium risk score.","**
+The CRQ involves making changes to the DNS and LTM (Local Traffic Manager) configurations in a non-production environment. Specifically, it includes adding new aliases and LTM VIPs (Virtual IPs). The change is being implemented manually by Mitchell R Darmon and is scheduled to start and end on the same day, August 27, 2024. The change is categorized under the Network tier and is currently in the ""Implementation In Progress"" status.
+
+**","**
+1. The change involves DNS and LTM configurations, which are critical components of network infrastructure.
+2. The environment affected is a non-production (Stress) environment, which reduces the immediate impact on end-users.
+3. The change is being implemented manually, which introduces a higher risk of human error compared to automated processes.
+4. The change does not involve any rollback plan, as the new VIPs are not being used yet, which could complicate recovery if issues arise.
+
+**","**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The change pertains to Network Infrastructure and Hardware. (Rule: If the change pertains to Network Infrastructure and Hardware:3:4)
+3. Several teams are involved, including the IOCD Projects Teams and Vendors. (Rule: If several teams are involved:3:3)
+4. The implementation plan, verification plan, and backout plan are not explicitly detailed in the notes, which should be considered absent. (General rule about plans being absent)
+
+**","**
+The risk score is determined to be medium due to the nature of the change involving critical network components (DNS and LTM), the manual implementation process, and the involvement of multiple teams. While the change is in a non-production environment, the absence of a detailed backout plan and the manual nature of the implementation elevate the risk. The clear and detailed description of the change helps mitigate some risk, but the overall complexity and potential for human error justify a medium risk score."
+6,CRQ000001081918,"CHANGEMANAGERPARTYLANID:x019076,CHANGEMANAGERPARTYNAME:Manuel Soto,CHANGESTATUSNAME:Implementation In Progress,CHANGESUBMITTERPARTYLANID:rhall,CHANGEPRODCATTIER1NAME:Software,CHANGEPRODCATTIER2NAME:System Infrastructure Software,CHANGEPRODCATTIER3NAME:Operating Systems and Subsystems,CHANGEPRODNAME:Linux,CHANGEREASONTYPENAME:New Functionality,CHANGESCHEDULEDSTARTDATETIME:2024-08-27 11:35:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-27 13:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 11:33:30,CHANGESUBMITTERPARTYNAME:Rosalynn Hall,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 1,CHANGESUMMARYTEXT:8/27 11:35AM - Update ISCSI sudoers file,CHANGENOTETEXT:Task Implementer:   Roz Hall - Linux Server Product   Description of change:    Update ISCSI sudoers file on XRAPESAN via Puppet.  Please attach Implementation, Verification, and Back out plans.,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",x019076,Manuel Soto,Implementation In Progress,rhall,Software,System Infrastructure Software,Operating Systems and Subsystems,Linux,New Functionality,2024-08-27 11:35:00,2024,2024-08-27 13:00:00,2024-08-27 11:33:30,Rosalynn Hall,,,,Risk Level 1,8/27 11:35AM - Update ISCSI sudoers file,"Task Implementer:   Roz Hall - Linux Server Product   Description of change:    Update ISCSI sudoers file on XRAPESAN via Puppet.  Please attach Implementation, Verification, and Back out plans.",Change Management,"**Risk score: Low**
+
+**Summary of work entailed:**
+The CRQ involves updating the ISCSI sudoers file on the XRAPESAN via Puppet. The task is being implemented by Roz Hall, who is part of the Linux Server Product team. The change is scheduled to start on August 27, 2024, at 11:35 AM and end at 1:00 PM on the same day. The change is categorized under ""New Functionality"" and is currently in the ""Implementation In Progress"" status.
+
+**Technology-based analysis:**
+1. **Change Category:** The change is related to ""System Infrastructure Software"" and specifically targets ""Operating Systems and Subsystems"" with a focus on Linux.
+2. **Implementation Method:** The change will be implemented using Puppet, an automation tool, which generally reduces the risk of human error.
+3. **Change Description:** The task involves updating a configuration file (ISCSI sudoers file), which is a relatively low-risk operation if done correctly.
+4. **Risk Level:** The CRQ is marked as ""Risk Level 1,"" indicating a low-risk change.
+
+**Rules-based analysis:**
+1. **Automation Tool:** The implementer is using Puppet, an automation tool, which generally lowers the risk (If the implementer is an automation tool:1:3).
+2. **Clear and Detailed Description:** The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. **Backup Plan:** The notes mention the need to attach Implementation, Verification, and Backout plans, which implies that these plans are considered (If the CRQ includes a backup plan in case of failure:1:3).
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The use of an automation tool (Puppet) for implementation reduces the likelihood of human error. The CRQ has a clear and detailed description, and there is an indication that backup plans are considered, although not explicitly detailed in the notes. The task itself involves updating a configuration file, which is generally a low-risk operation. The overall risk is further mitigated by the fact that the CRQ is marked as ""Risk Level 1.""","Low**
+
+**Summary of work entailed:**
+The CRQ involves updating the ISCSI sudoers file on the XRAPESAN via Puppet. The task is being implemented by Roz Hall, who is part of the Linux Server Product team. The change is scheduled to start on August 27, 2024, at 11:35 AM and end at 1:00 PM on the same day. The change is categorized under ""New Functionality"" and is currently in the ""Implementation In Progress"" status.
+
+**Technology-based analysis:**
+1. **Change Category:** The change is related to ""System Infrastructure Software"" and specifically targets ""Operating Systems and Subsystems"" with a focus on Linux.
+2. **Implementation Method:** The change will be implemented using Puppet, an automation tool, which generally reduces the risk of human error.
+3. **Change Description:** The task involves updating a configuration file (ISCSI sudoers file), which is a relatively low-risk operation if done correctly.
+4. **Risk Level:** The CRQ is marked as ""Risk Level 1,"" indicating a low-risk change.
+
+**Rules-based analysis:**
+1. **Automation Tool:** The implementer is using Puppet, an automation tool, which generally lowers the risk (If the implementer is an automation tool:1:3).
+2. **Clear and Detailed Description:** The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. **Backup Plan:** The notes mention the need to attach Implementation, Verification, and Backout plans, which implies that these plans are considered (If the CRQ includes a backup plan in case of failure:1:3).
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The use of an automation tool (Puppet) for implementation reduces the likelihood of human error. The CRQ has a clear and detailed description, and there is an indication that backup plans are considered, although not explicitly detailed in the notes. The task itself involves updating a configuration file, which is generally a low-risk operation. The overall risk is further mitigated by the fact that the CRQ is marked as ""Risk Level 1.""","**
+The CRQ involves updating the ISCSI sudoers file on the XRAPESAN via Puppet. The task is being implemented by Roz Hall, who is part of the Linux Server Product team. The change is scheduled to start on August 27, 2024, at 11:35 AM and end at 1:00 PM on the same day. The change is categorized under ""New Functionality"" and is currently in the ""Implementation In Progress"" status.
+
+**","**
+1. **Change Category:** The change is related to ""System Infrastructure Software"" and specifically targets ""Operating Systems and Subsystems"" with a focus on Linux.
+2. **Implementation Method:** The change will be implemented using Puppet, an automation tool, which generally reduces the risk of human error.
+3. **Change Description:** The task involves updating a configuration file (ISCSI sudoers file), which is a relatively low-risk operation if done correctly.
+4. **Risk Level:** The CRQ is marked as ""Risk Level 1,"" indicating a low-risk change.
+
+**","**
+1. **Automation Tool:** The implementer is using Puppet, an automation tool, which generally lowers the risk (If the implementer is an automation tool:1:3).
+2. **Clear and Detailed Description:** The CRQ has a clear and detailed description of the implemented change (If the CRQ has a clear and detailed description of the implemented change:1:3).
+3. **Backup Plan:** The notes mention the need to attach Implementation, Verification, and Backout plans, which implies that these plans are considered (If the CRQ includes a backup plan in case of failure:1:3).
+
+**","**
+The risk score for this CRQ is determined to be low. The use of an automation tool (Puppet) for implementation reduces the likelihood of human error. The CRQ has a clear and detailed description, and there is an indication that backup plans are considered, although not explicitly detailed in the notes. The task itself involves updating a configuration file, which is generally a low-risk operation. The overall risk is further mitigated by the fact that the CRQ is marked as ""Risk Level 1."""
+7,CRQ000001081940,"CHANGEMANAGERPARTYLANID:a031696,CHANGEMANAGERPARTYNAME:Monique R Thompson,CHANGESTATUSNAME:Implementation In Progress,CHANGESUBMITTERPARTYLANID:a152213,CHANGEPRODCATTIER1NAME:Software,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Upgrade,CHANGESCHEDULEDSTARTDATETIME:2024-08-28 09:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-28 12:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 14:41:44,CHANGESUBMITTERPARTYNAME:Dominic M Prestifilippo,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 1,CHANGESUMMARYTEXT:No impact OpenStack Update,CHANGENOTETEXT:Task Implementer:    Dominic Prestifilippo  Description of change:        Updating rhel7 repo cert in east,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",a031696,Monique R Thompson,Implementation In Progress,a152213,Software,,,,Upgrade,2024-08-28 09:00:00,2024,2024-08-28 12:00:00,2024-08-27 14:41:44,Dominic M Prestifilippo,,,,Risk Level 1,No impact OpenStack Update,Task Implementer:    Dominic Prestifilippo  Description of change:        Updating rhel7 repo cert in east,Change Management,"**Risk score: Low**
+
+**Summary of work entailed:**
+The CRQ involves updating the RHEL7 repository certificate in the east region. The change is categorized under software and is an upgrade. The task implementer is Dominic Prestifilippo, and the change is currently in the ""Implementation In Progress"" status. The scheduled start and end times for the change are from 09:00 to 12:00 on August 28, 2024. The change is described as having no impact and is classified as Risk Level 1.
+
+**Technology-based analysis:**
+1. The change involves updating a repository certificate, which is a routine maintenance task in software management.
+2. The change is categorized under software, which typically involves less risk compared to hardware or network infrastructure changes.
+3. The change is described as having no impact, indicating that it is not expected to disrupt any services or operations.
+4. The change is classified as Risk Level 1, which is the lowest risk level in the classification system.
+
+**Rules-based analysis:**
+1. The nature of the change is renewing an internal certificate on a server, which is considered low risk (1:4).
+2. The CRQ has a clear and detailed description of the implemented change, which contributes to a lower risk score (1:3).
+3. The impact score is relatively low, further supporting a low-risk classification (1:2).
+4. The change request involves patching, which is generally considered low risk (1:5).
+
+**Summary of risk:**
+Based on the technology-based analysis and the rules-based analysis, the CRQ is assessed to have a low risk. The task involves a routine update of a repository certificate, which is a common maintenance activity with minimal impact. The detailed description and low impact score further support the low-risk classification. The change is well-documented and follows standard procedures, ensuring that any potential issues can be managed effectively.","Low**
+
+**Summary of work entailed:**
+The CRQ involves updating the RHEL7 repository certificate in the east region. The change is categorized under software and is an upgrade. The task implementer is Dominic Prestifilippo, and the change is currently in the ""Implementation In Progress"" status. The scheduled start and end times for the change are from 09:00 to 12:00 on August 28, 2024. The change is described as having no impact and is classified as Risk Level 1.
+
+**Technology-based analysis:**
+1. The change involves updating a repository certificate, which is a routine maintenance task in software management.
+2. The change is categorized under software, which typically involves less risk compared to hardware or network infrastructure changes.
+3. The change is described as having no impact, indicating that it is not expected to disrupt any services or operations.
+4. The change is classified as Risk Level 1, which is the lowest risk level in the classification system.
+
+**Rules-based analysis:**
+1. The nature of the change is renewing an internal certificate on a server, which is considered low risk (1:4).
+2. The CRQ has a clear and detailed description of the implemented change, which contributes to a lower risk score (1:3).
+3. The impact score is relatively low, further supporting a low-risk classification (1:2).
+4. The change request involves patching, which is generally considered low risk (1:5).
+
+**Summary of risk:**
+Based on the technology-based analysis and the rules-based analysis, the CRQ is assessed to have a low risk. The task involves a routine update of a repository certificate, which is a common maintenance activity with minimal impact. The detailed description and low impact score further support the low-risk classification. The change is well-documented and follows standard procedures, ensuring that any potential issues can be managed effectively.","**
+The CRQ involves updating the RHEL7 repository certificate in the east region. The change is categorized under software and is an upgrade. The task implementer is Dominic Prestifilippo, and the change is currently in the ""Implementation In Progress"" status. The scheduled start and end times for the change are from 09:00 to 12:00 on August 28, 2024. The change is described as having no impact and is classified as Risk Level 1.
+
+**","**
+1. The change involves updating a repository certificate, which is a routine maintenance task in software management.
+2. The change is categorized under software, which typically involves less risk compared to hardware or network infrastructure changes.
+3. The change is described as having no impact, indicating that it is not expected to disrupt any services or operations.
+4. The change is classified as Risk Level 1, which is the lowest risk level in the classification system.
+
+**","**
+1. The nature of the change is renewing an internal certificate on a server, which is considered low risk (1:4).
+2. The CRQ has a clear and detailed description of the implemented change, which contributes to a lower risk score (1:3).
+3. The impact score is relatively low, further supporting a low-risk classification (1:2).
+4. The change request involves patching, which is generally considered low risk (1:5).
+
+**","**
+Based on the technology-based analysis and the rules-based analysis, the CRQ is assessed to have a low risk. The task involves a routine update of a repository certificate, which is a common maintenance activity with minimal impact. The detailed description and low impact score further support the low-risk classification. The change is well-documented and follows standard procedures, ensuring that any potential issues can be managed effectively."
+8,CRQ000001065559,"CHANGEMANAGERPARTYLANID:oweil1,CHANGEMANAGERPARTYNAME:Oren J Weil,CHANGESTATUSNAME:Implementation In Progress,CHANGESUBMITTERPARTYLANID:gmcphea1,CHANGEPRODCATTIER1NAME:,CHANGEPRODCATTIER2NAME:,CHANGEPRODCATTIER3NAME:,CHANGEPRODNAME:,CHANGEREASONTYPENAME:Upgrade,CHANGESCHEDULEDSTARTDATETIME:2024-08-27 15:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-08-27 18:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 15:11:55,CHANGESUBMITTERPARTYNAME:Gordon Mcpheator,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 1,CHANGESUMMARYTEXT:Metro CyberArk Vault Pure Storage Migration,CHANGENOTETEXT:Task Implementer: Gordon McPheator  Description of change:Pure Storage Migration   See task for Implementation, Verification, and Back out plans.,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",oweil1,Oren J Weil,Implementation In Progress,gmcphea1,,,,,Upgrade,2024-08-27 15:00:00,2024,2024-08-27 18:00:00,2024-08-27 15:11:55,Gordon Mcpheator,,,,Risk Level 1,Metro CyberArk Vault Pure Storage Migration,"Task Implementer: Gordon McPheator  Description of change:Pure Storage Migration   See task for Implementation, Verification, and Back out plans.",Change Management,"**Risk score: Low**
+
+**Summary of work entailed:**
+The CRQ involves a migration of the Metro CyberArk Vault to Pure Storage. The task implementer is Gordon McPheator, and the change is scheduled to start and end on August 27, 2024, from 15:00 to 18:00. The change is currently in the ""Implementation In Progress"" status. The change reason is categorized as an upgrade, and the risk level is identified as ""Risk Level 1."" The notes include a description of the implementation, verification, and backout plans.
+
+**Technology-based analysis:**
+1. The change involves migrating storage systems, specifically to Pure Storage, which is a high-end data storage system.
+2. The change is related to the Metro CyberArk Vault, which is a critical security component.
+3. The task includes detailed implementation, verification, and backout plans in the notes.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. The product involved is a high-end data storage system. (Rule: If the product involved is a high-end data storage system:2:5)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The detailed implementation, verification, and backout plans significantly mitigate potential risks. The migration to Pure Storage, while involving a high-end data storage system, is well-documented and planned. The risk level is further reduced by the presence of a clear and detailed description of the change and a backup plan in case of failure. The overall impact is minimized due to the thorough preparation and documentation provided in the CRQ.","Low**
+
+**Summary of work entailed:**
+The CRQ involves a migration of the Metro CyberArk Vault to Pure Storage. The task implementer is Gordon McPheator, and the change is scheduled to start and end on August 27, 2024, from 15:00 to 18:00. The change is currently in the ""Implementation In Progress"" status. The change reason is categorized as an upgrade, and the risk level is identified as ""Risk Level 1."" The notes include a description of the implementation, verification, and backout plans.
+
+**Technology-based analysis:**
+1. The change involves migrating storage systems, specifically to Pure Storage, which is a high-end data storage system.
+2. The change is related to the Metro CyberArk Vault, which is a critical security component.
+3. The task includes detailed implementation, verification, and backout plans in the notes.
+
+**Rules-based analysis:**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. The product involved is a high-end data storage system. (Rule: If the product involved is a high-end data storage system:2:5)
+
+**Summary of risk:**
+The risk score for this CRQ is determined to be low. The detailed implementation, verification, and backout plans significantly mitigate potential risks. The migration to Pure Storage, while involving a high-end data storage system, is well-documented and planned. The risk level is further reduced by the presence of a clear and detailed description of the change and a backup plan in case of failure. The overall impact is minimized due to the thorough preparation and documentation provided in the CRQ.","**
+The CRQ involves a migration of the Metro CyberArk Vault to Pure Storage. The task implementer is Gordon McPheator, and the change is scheduled to start and end on August 27, 2024, from 15:00 to 18:00. The change is currently in the ""Implementation In Progress"" status. The change reason is categorized as an upgrade, and the risk level is identified as ""Risk Level 1."" The notes include a description of the implementation, verification, and backout plans.
+
+**","**
+1. The change involves migrating storage systems, specifically to Pure Storage, which is a high-end data storage system.
+2. The change is related to the Metro CyberArk Vault, which is a critical security component.
+3. The task includes detailed implementation, verification, and backout plans in the notes.
+
+**","**
+1. The CRQ has a clear and detailed description of the implemented change. (Rule: If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (Rule: If the CRQ includes a backup plan in case of failure:1:3)
+3. The product involved is a high-end data storage system. (Rule: If the product involved is a high-end data storage system:2:5)
+
+**","**
+The risk score for this CRQ is determined to be low. The detailed implementation, verification, and backout plans significantly mitigate potential risks. The migration to Pure Storage, while involving a high-end data storage system, is well-documented and planned. The risk level is further reduced by the presence of a clear and detailed description of the change and a backup plan in case of failure. The overall impact is minimized due to the thorough preparation and documentation provided in the CRQ."
+9,CRQ000001081997,"CHANGEMANAGERPARTYLANID:x019076,CHANGEMANAGERPARTYNAME:Manuel Soto,CHANGESTATUSNAME:Implementation In Progress,CHANGESUBMITTERPARTYLANID:a176024,CHANGEPRODCATTIER1NAME:Software,CHANGEPRODCATTIER2NAME:Software Application/System,CHANGEPRODCATTIER3NAME:Software Server,CHANGEPRODNAME:,CHANGEREASONTYPENAME:New Functionality,CHANGESCHEDULEDSTARTDATETIME:2024-09-05 09:00:00,YEAR:2024,CHANGESCHEDULEDENDDATETIME:2024-09-05 14:00:00,CHANGESUBMITTEDDATETIME:2024-08-27 13:38:57,CHANGESUBMITTERPARTYNAME:Lucas Rawlins,CHANGEOPCATTIER1NAME:None,CHANGEOPCATTIER2NAME:None,CHANGEOPCATTIER3NAME:None,CHANGERISKLEVELNAME:Risk Level 2,CHANGESUMMARYTEXT:Install Puppet Agent on SAS GRID Production Server | Thursday, September 5, 2024,CHANGENOTETEXT:Task Implementer:   Luke Rawlins  Description of change:  Install Puppet Agent on SAS GRID Production Servers. This change DOES NOT require a reboot.  Please attach Implementation, Verification, and Back out plans.     Verification: Check puppet admin console for server check-in.    Back out plan: Disable puppet agent,CHANGEMANAGERSUPPORTGROUPNAME:Change Management,",x019076,Manuel Soto,Implementation In Progress,a176024,Software,Software Application/System,Software Server,,New Functionality,2024-09-05 09:00:00,2024,2024-09-05 14:00:00,2024-08-27 13:38:57,Lucas Rawlins,,,,Risk Level 2,"Install Puppet Agent on SAS GRID Production Server | Thursday, September 5, 2024","Task Implementer:   Luke Rawlins  Description of change:  Install Puppet Agent on SAS GRID Production Servers. This change DOES NOT require a reboot.  Please attach Implementation, Verification, and Back out plans.     Verification: Check puppet admin console for server check-in.    Back out plan: Disable puppet agent",Change Management,"Risk score: Medium
+
+Summary of work entailed:
+The CRQ involves installing the Puppet Agent on SAS GRID Production Servers. The change is scheduled to take place on September 5, 2024, from 09:00 to 14:00. The task does not require a reboot and includes a detailed implementation, verification, and backout plan.
+
+Technology-based analysis:
+1. The change involves installing software (Puppet Agent) on production servers.
+2. The change does not require a reboot, which minimizes immediate disruption.
+3. The change is categorized under ""Software Application/System"" and ""Software Server.""
+4. The change is intended to introduce new functionality.
+5. The risk level is identified as ""Risk Level 2.""
+
+Rules-based analysis:
+1. The CRQ has a clear and detailed description of the implemented change. (If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (If the CRQ includes a backup plan in case of failure:1:3)
+3. The task involves potential adjustments and consultation with other members of the team. (If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. The change request status is ""Implementation In Progress,"" which is not draft or scheduled, so the rule about status 10 does not apply. (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+
+Summary of risk:
+The risk score for this CRQ is determined to be medium. The change involves installing a software agent on production servers, which inherently carries some risk, but the detailed implementation, verification, and backout plans mitigate this risk. The task does not require a reboot, reducing the potential for immediate disruption. The involvement of multiple team members and the clear documentation provided further support a medium risk assessment.","Medium
+
+Summary of work entailed:
+The CRQ involves installing the Puppet Agent on SAS GRID Production Servers. The change is scheduled to take place on September 5, 2024, from 09:00 to 14:00. The task does not require a reboot and includes a detailed implementation, verification, and backout plan.
+
+Technology-based analysis:
+1. The change involves installing software (Puppet Agent) on production servers.
+2. The change does not require a reboot, which minimizes immediate disruption.
+3. The change is categorized under ""Software Application/System"" and ""Software Server.""
+4. The change is intended to introduce new functionality.
+5. The risk level is identified as ""Risk Level 2.""
+
+Rules-based analysis:
+1. The CRQ has a clear and detailed description of the implemented change. (If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (If the CRQ includes a backup plan in case of failure:1:3)
+3. The task involves potential adjustments and consultation with other members of the team. (If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. The change request status is ""Implementation In Progress,"" which is not draft or scheduled, so the rule about status 10 does not apply. (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)
+
+Summary of risk:
+The risk score for this CRQ is determined to be medium. The change involves installing a software agent on production servers, which inherently carries some risk, but the detailed implementation, verification, and backout plans mitigate this risk. The task does not require a reboot, reducing the potential for immediate disruption. The involvement of multiple team members and the clear documentation provided further support a medium risk assessment.","The CRQ involves installing the Puppet Agent on SAS GRID Production Servers. The change is scheduled to take place on September 5, 2024, from 09:00 to 14:00. The task does not require a reboot and includes a detailed implementation, verification, and backout plan.","1. The change involves installing software (Puppet Agent) on production servers.
+2. The change does not require a reboot, which minimizes immediate disruption.
+3. The change is categorized under ""Software Application/System"" and ""Software Server.""
+4. The change is intended to introduce new functionality.
+5. The risk level is identified as ""Risk Level 2.""","1. The CRQ has a clear and detailed description of the implemented change. (If the CRQ has a clear and detailed description of the implemented change:1:3)
+2. The CRQ includes a backup plan in case of failure. (If the CRQ includes a backup plan in case of failure:1:3)
+3. The task involves potential adjustments and consultation with other members of the team. (If the task includes potential adjustments and consultation with other members of the team:3:4)
+4. The change request status is ""Implementation In Progress,"" which is not draft or scheduled, so the rule about status 10 does not apply. (If the change request status is 10 on CRQs whose status is draft or scheduled. This does not apply to CRQs whose risk is closed.:2:3)","The risk score for this CRQ is determined to be medium. The change involves installing a software agent on production servers, which inherently carries some risk, but the detailed implementation, verification, and backout plans mitigate this risk. The task does not require a reboot, reducing the potential for immediate disruption. The involvement of multiple team members and the clear documentation provided further support a medium risk assessment."
